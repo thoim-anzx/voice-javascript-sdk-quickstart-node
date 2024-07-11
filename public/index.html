@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Twilio Voice JavaScript SDK Quickstart</title>
+    <title>Inbound Digital Voice</title>
     <link rel="stylesheet" href="site.css" />
   </head>
   <body>
     <header>
-      <h1>Twilio Voice JavaScript SDK Quickstart</h1>
+      <h1>Inbound Digital Voice</h1>
       <button id="startup-button">Start up the Device</button>
     </header>
     <main id="controls">
@@ -27,9 +27,9 @@
         <div id="call-controls" class="hide">
           <form>
             <label for="phone-number"
-              >Enter a phone number or client name</label
+              >Enter a phone number or client name. Leave blank to call TwiML App in token.</label
             >
-            <input id="phone-number" type="text" placeholder="+15552221234" />
+            <input id="phone-number" type="text" placeholder="Phone number, client, or leave blank" />
             <button id="button-call" type="submit">Call</button>
           </form>
           <button id="button-hangup-outgoing" class="hide">Hang Up</button>
